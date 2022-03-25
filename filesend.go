@@ -28,7 +28,7 @@ func main() {
 			"",
 		}
 		attachmentFilePath = os.Args[1]
-		filename           = "main.go"
+		filename           = os.Args[1]
 		delimeter          = "**=myohmy689407924327"
 	)
 	if len(argsWithoutProg) > 3 {
