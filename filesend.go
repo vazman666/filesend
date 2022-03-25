@@ -37,7 +37,7 @@ func main() {
 		tos = append(tos, "price@zzap.pro")
 	}
 
-	fmt.Printf("Файл %v отправитель %v пароль %v получатель %v\n", attachmentFilePath, emailAddr, password, tos)
+	fmt.Printf("File %v sender %v pass %v receiver %v\n", attachmentFilePath, emailAddr, password, tos)
 	/*log.Println("======= Test Gmail client (with attachment) =========")
 	log.Println("NOTE: user need to turn on 'less secure apps' options")
 	log.Println("URL:  https://myaccount.google.com/lesssecureapps\n\r")*/
@@ -132,5 +132,5 @@ func main() {
 	client.Quit()
 
 	//log.Print("done.")
-	fmt.Printf("Файл отправлен\n")
+	fmt.Printf("File send \n")
 }
